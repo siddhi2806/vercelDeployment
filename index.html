@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!--font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!--custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="logo">Pixel<span>Perfect</span></a>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="home.html">Home</a>
+          <a href="courses.html">Courses</a>
+          <a href="instructor.html">Instructors</a>
+          <a href="price.html">Pricing</a>
+          <a href="review.html">Review</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <!-- home section -->
+      <section class="home">
+        <div class="content">
+          <h3>Capture the World Through Your Lens</h3>
+          <p>
+            Discover the art of photography with our expert tips, tutorials, and
+            community support.
+          </p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="image">
+          <img src="images/new.jpg" />
+        </div>
+      </section>
+
+      <!-- footer section -->
+
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>About Us</h3>
+            <p>
+              We are passionate about photography, providing resources to help
+              you capture stunning images and enhance your skills from beginner
+              to advanced levels.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Instructors</a>
+            <a href="#">Pricing</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+          </div>
+
+          <div class="box">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-phone"> </i> +123-456-7890</p>
+            <p><i class="fas fa-envelope"> </i> pixelperfect@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"> </i> Mumbai, India - 400104</p>
+          </div>
+        </div>
+
+        <div class="credit">
+          Created by <span> Siddhi Shenvi </span>| All Rights Reserved
+        </div>
+      </section>
+    </div>
+
+    <!--custom js file link -->
+    <script src="script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCNYePNG2IbbGMEpWNZx3F8me83fg6pw-4",
+        authDomain: "project1-3ab5b.firebaseapp.com",
+        projectId: "project1-3ab5b",
+        storageBucket: "project1-3ab5b.appspot.com",
+        messagingSenderId: "709670438487",
+        appId: "1:709670438487:web:08fd6324181281d9b54512",
+        measurementId: "G-3T4B2QCV7W"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
